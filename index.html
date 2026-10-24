@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light dark">
+    <meta name="theme-color" content="#f8f7f4">
+    <meta name="author" content="Chang">
+    <meta name="description" content="Chang — Artificial Intelligence undergraduate at Xi’an Jiaotong-Liverpool University. Back-End Development, LLM-based Agents, and Text-to-SQL research.">
+    <title>Chang | Back-End Development &amp; LLM-based Agents</title>
+    <!-- 在样式加载前恢复主题，避免刷新时闪烁。 -->
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <div class="site-layout">
+      <aside class="profile-sidebar" aria-label="Profile and navigation">
+        <div class="profile-details">
+          <!-- 替换头像：把下面的 div 换成：
+          <img class="profile-avatar" src="./assets/avatar.jpg" alt="Chang">
+          然后在 assets 文件夹中放入 avatar.jpg。默认留空，不加载图片。
+          -->
+          <!-- <div class="profile-avatar" aria-hidden="true"></div> -->
+          <img class="profile-avatar" src="./assets/avatar.jpg" alt="Chang">
+          <h1 class="profile-name">Chang<span aria-hidden="true">.</span></h1>
+          <p class="profile-role">Artificial Intelligence<br>Undergraduate</p>
+          <p class="profile-school">Xi’an Jiaotong-Liverpool<br>University</p>
+          <p class="profile-year">Class of 2028</p>
+
+          <div class="profile-links" aria-label="Profile links">
+            <a class="profile-link" href="https://github.com/Chang718" target="_blank" rel="noopener noreferrer" aria-label="Chang on GitHub (opens in a new tab)">
+              <svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7m12 5v-3.4a3 3 0 0 0-.8-2.3c2.7-.3 5.5-1.3 5.5-6A4.7 4.7 0 0 0 18.4 6a4.3 4.3 0 0 0-.1-3.4S17.2 2.3 15 4a11.5 11.5 0 0 0-6 0C6.8 2.3 5.7 2.6 5.7 2.6A4.3 4.3 0 0 0 5.6 6a4.7 4.7 0 0 0-1.3 3.6c0 4.7 2.8 5.7 5.5 6a3 3 0 0 0-.8 2.3v3.4"/></svg>
+              <span>GitHub</span>
+            </a>
+            <a class="profile-link" href="mailto:xc060718@gmail.com">
+              <svg aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <span>Email</span>
+            </a>
+          </div>
+        </div>
+
+        <nav class="section-nav" aria-label="Page sections">
+          <a class="nav-link" href="#about" aria-current="location"><span class="nav-index" aria-hidden="true">01</span><span class="nav-label">About</span></a>
+          <a class="nav-link" href="#experience"><span class="nav-index" aria-hidden="true">02</span><span class="nav-label">Experience</span></a>
+          <a class="nav-link" href="#education"><span class="nav-index" aria-hidden="true">03</span><span class="nav-label">Education</span></a>
+          <a class="nav-link" href="#toolkit"><span class="nav-index" aria-hidden="true">04</span><span class="nav-label">Toolkit</span></a>
+          <a class="nav-link" href="#contact"><span class="nav-index" aria-hidden="true">05</span><span class="nav-label">Contact</span></a>
+        </nav>
+
+        <div class="sidebar-bottom">
+          <button class="theme-toggle" type="button" aria-label="Switch to dark theme" aria-pressed="false" hidden>
+            <span class="theme-icon" aria-hidden="true">
+              <svg class="icon-moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M20.9 13.1A9 9 0 0 1 10.9 3a9 9 0 1 0 10 10.1Z"/></svg>
+              <svg class="icon-sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4m0-14.2-1.4 1.4M6.3 17.7l-1.4 1.4"/></svg>
+            </span>
+            <span class="theme-label">Dark theme</span>
+          </button>
+        </div>
+      </aside>
+
+      <main id="main-content" tabindex="-1">
+        <!-- 修改个人简介和兴趣关键词的位置。 -->
+        <section class="content-section" id="about" aria-labelledby="about-heading">
+          <div class="section-heading"><span class="section-number" aria-hidden="true">01</span><h2 id="about-heading">About</h2></div>
+          <p class="intro-copy">Hi, I’m Chang, an Artificial Intelligence undergraduate at Xi’an Jiaotong-Liverpool University, graduating in 2028. My interests lie in Back-End Development, LLM-based agents. As an undergraduate research assistant, I work on Text-to-SQL and Data Agents. Alongside research, I’m learning to build backend systems and AI applications.</p>
+          <ul class="interest-list" aria-label="Interests">
+            <li class="interest-tag">Back-End Development</li>
+            <li class="interest-tag">LLM-based Agents</li>
+          </ul>
+        </section>
+
+        <!-- 以下两段经历保留提供的英文原文；仅通过 HTML 层级调整排版。 -->
+        <section class="content-section" id="experience" aria-labelledby="experience-heading">
+          <div class="section-heading"><span class="section-number" aria-hidden="true">02</span><h2 id="experience-heading">Experience</h2></div>
+          <div class="experience-list">
+            <article class="experience-entry" aria-labelledby="research-title">
+              <h3 class="experience-heading" id="research-title">Undergraduate Research Assistant</h3>
+              <p class="experience-role">Undergraduate Research Assistant — Text-to-SQL &amp; Data Agents</p>
+              <p class="experience-meta">Xi'an Jiaotong-Liverpool University | Apr. 2026 – Present</p>
+              <p class="experience-supervisor">Supervisor: Dr. Bin Chen</p>
+              <p class="experience-intro">Conducting ongoing research on LLM-based Text-to-SQL and Data Agents, focusing on schema linking, agentic reasoning, and self-reflective SQL generation. As part of this research, I participated in XJTLU's three-month Summer Undergraduate Research Fellowship (SURF) in Summer 2026.</p>
+              <ul class="experience-bullets">
+                <li><strong>Benchmarking &amp; Evaluation:</strong> Established baseline results and reproduced representative Text-to-SQL methods, including DIN-SQL, DFIN-SQL, SQL-of-Thought, and AutoLink. Conducted experiments on the Spider and BIRD benchmarks to evaluate their performance.</li>
+                <li><strong>Schema Linking &amp; Reasoning:</strong> Explored schema linking strategies, database exploration techniques, and ontology-based representations. Performed systematic error analyses to identify challenges in schema understanding and SQL generation.</li>
+                <li><strong>SURF Research Project (Summer 2026):</strong> Enhancing Text-to-SQL with Self-Reflective Retrieval-Augmented Generation. Conducted experiments and contributed to the research methodology and manuscript writing of RASR-SQL, a multi-agent framework combining retrieval-augmented generation with self-reflective SQL correction.</li>
+              </ul>
+              <p class="manuscript"><span class="manuscript-label">Manuscript:</span> <cite>RASR-SQL: Enhancing Text-to-SQL with Multi-Agent Self-Reflective Retrieval-Augmented Generation</cite> (Submitted to MLNLP 2026).</p>
+            </article>
+
+            <article class="experience-entry" aria-labelledby="volunteer-title">
+              <h3 class="experience-heading" id="volunteer-title">Volunteer Data Annotator</h3>
+              <p class="experience-role">Speech LLMs for Meeting Transcription and Summarization</p>
+              <p class="experience-meta">Volunteer Data Annotator — Model Evaluation | Nov. 2025</p>
+              <ul class="experience-bullets">
+                <li>Conducted structured data annotation for automatic meeting transcription and summarization tasks.</li>
+                <li>Assessed generated meeting summaries based on informativeness, coherence, and factual accuracy.</li>
+                <li>Contributed annotated data to support model training and evaluation in both research and industry applications.</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section class="content-section" id="education" aria-labelledby="education-heading">
+          <div class="section-heading"><span class="section-number" aria-hidden="true">03</span><h2 id="education-heading">Education &amp; Honors</h2></div>
+          <div class="education-entry">
+            <h3 class="education-school">Xi’an Jiaotong-Liverpool University</h3>
+            <p class="education-degree">Artificial Intelligence</p>
+            <p class="education-year">Class of 2028</p>
+          </div>
+          <div class="honor-row">
+            <svg class="honor-icon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="5"/><path d="m8.6 11.7-2 9 5.4-3 5.4 3-2-9"/></svg>
+            <span class="honor-title">University Academic Excellence Award</span>
+            <span class="honor-year">2026/27</span>
+          </div>
+        </section>
+
+        <!-- 在各分组的 ul 中添加或修改技术名称。 -->
+        <section class="content-section" id="toolkit" aria-labelledby="toolkit-heading">
+          <div class="section-heading"><span class="section-number" aria-hidden="true">04</span><h2 id="toolkit-heading">Technical Toolkit</h2></div>
+          <div class="toolkit-grid">
+            <div class="toolkit-group">
+              <h3 class="toolkit-heading">Backend</h3>
+              <ul class="tool-list"><li>Java</li><li>Spring Boot</li><li>FastAPI</li><li>MyBatis</li><li>MySQL</li><li>Redis</li></ul>
+            </div>
+            <div class="toolkit-group">
+              <h3 class="toolkit-heading">Agent Development</h3>
+              <ul class="tool-list"><li>LangChain</li><li>LangGraph</li><li>Deep Agents</li></ul>
+            </div>
+            <div class="toolkit-group">
+              <h3 class="toolkit-heading">AI &amp; Data</h3>
+              <ul class="tool-list"><li>Python</li><li>NumPy</li><li>pandas</li><li>Matplotlib</li><li>scikit-learn</li><li>PyTorch</li></ul>
+            </div>
+            <div class="toolkit-group">
+              <h3 class="toolkit-heading">Engineering</h3>
+              <ul class="tool-list"><li>Linux</li><li>Docker</li><li>Git</li><li>Maven</li></ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 更新邮箱时，同时修改这里及侧栏链接的 mailto 地址。 -->
+        <section class="content-section" id="contact" aria-labelledby="contact-heading">
+          <div class="section-heading"><span class="section-number" aria-hidden="true">05</span><h2 id="contact-heading">Contact</h2></div>
+          <div class="contact-list">
+            <a class="contact-link" href="mailto:xc060718@gmail.com">
+              <svg class="contact-icon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+              <span><span class="contact-label">Email</span><span class="contact-value">xc060718@gmail.com</span></span>
+              <svg class="external-arrow" aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M7 7h10v10"/></svg>
+            </a>
+            <a class="contact-link" href="https://github.com/Chang718" target="_blank" rel="noopener noreferrer" aria-label="github.com/Chang718 (opens in a new tab)">
+              <svg class="contact-icon" aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-4.3 1.3-4.3-2.2-6-2.7m12 5v-3.4a3 3 0 0 0-.8-2.3c2.7-.3 5.5-1.3 5.5-6A4.7 4.7 0 0 0 18.4 6a4.3 4.3 0 0 0-.1-3.4S17.2 2.3 15 4a11.5 11.5 0 0 0-6 0C6.8 2.3 5.7 2.6 5.7 2.6A4.3 4.3 0 0 0 5.6 6a4.7 4.7 0 0 0-1.3 3.6c0 4.7 2.8 5.7 5.5 6a3 3 0 0 0-.8 2.3v3.4"/></svg>
+              <span><span class="contact-label">GitHub</span><span class="contact-value">github.com/Chang718</span></span>
+              <svg class="external-arrow" aria-hidden="true" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M7 7h10v10"/></svg>
+            </a>
+          </div>
+        </section>
+
+        <footer class="site-footer"><span>© <span id="copyright-year">2026</span> Chang</span><a href="#about">Back to top <span aria-hidden="true">↑</span></a></footer>
+      </main>
+    </div>
+  </body>
+</html>
